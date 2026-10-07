@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Normal full-screen app theme -->
+    <style name="Theme.MyAssistant"
+        parent="android:Theme.Material.Light.NoActionBar" />
+
+    <!-- Transparent theme for the compact assistant panel -->
+    <style name="Theme.MyAssistant.Panel"
+        parent="Theme.MyAssistant">
+
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">
+            @android:color/transparent
+        </item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+
+    </style>
+
+</resources>

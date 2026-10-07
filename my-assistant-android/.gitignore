@@ -1,0 +1,22 @@
+# --- Secrets: never commit these ---
+local.properties
+*.jks
+*.keystore
+keystore.properties
+
+# --- Large assets ---
+# The Vosk wake-word model (~40 MB); see app/src/main/assets/README.md
+app/src/main/assets/model-en-us/
+
+# --- Build output ---
+*.iml
+.gradle/
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# --- IDE ---
+.idea/
+*.hprof
+.DS_Store

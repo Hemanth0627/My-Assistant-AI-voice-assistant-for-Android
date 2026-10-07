@@ -1,0 +1,13 @@
+# Copy this file to local.properties and fill in your own values.
+# local.properties is git-ignored, so your secrets stay on your machine.
+
+# Android SDK location (Android Studio writes this for you)
+sdk.dir=/path/to/Android/Sdk
+
+# Your backend
+backend.url=https://your-backend.example.com
+backend.token=your-app-token
+
+# For local development over USB instead:
+# backend.url=http://127.0.0.1:8000
+# then run: adb reverse tcp:8000 tcp:8000
