@@ -15,14 +15,6 @@ Say **"Hey Brain"**, or long-press the power button, and ask for something.
 "Battery level"                         ->  answered on the phone, works offline
 ```
 
----
-
-## Demo
-
-> Add 3-4 screenshots or a short screen recording here, for example:
-> `![Assistant panel](docs/screenshots/panel.png)`
->
-> Blur contact names and phone numbers before uploading.
 
 ---
 
